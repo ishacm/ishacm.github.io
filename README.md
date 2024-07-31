@@ -5,7 +5,11 @@ I grew up playing wildily on Indian streets & then moving to Germany (an enginee
 -------------------------------------------------
 
 ## here are some of my works- 
-
+1. [Video Summarizer with GenAI & AWS serverless](https://github.com/ishacm/video-summarizer-llm-aws-serverless)
+2. [Realtime Twitter Data Analysis & Visualization](https://github.com/ishacm/realtime-insights-from-twitter-data)
+3. [Facial Recognition System](https://github.com/ishacm/facenet-facial-recognition)
+4. [Multi-factor Authentication with Google Authenticator (MERN stack)](https://github.com/ishacm/multi-factor-authentication)
+5. [Movie Recommender Systems](https://github.com/ishacm/movie-recommender)
 
 -------------------------------------------------
 
