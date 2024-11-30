@@ -31,9 +31,9 @@
       year: Mar 2023 – Jun 2024
       description:
         - Led re-structuring of new PLM process, encompassing 15+ sub-processes, collaborating with cross-functional
-team of developers, project leaders, and department heads.
+          team of developers, project leaders, and department heads.
         - Developed organization-wide platform using gpt3.5 & Python for PLM best practices, improving knowledge sharing and project
-efficiency across 12+ departments & gained 50+ users in the span of 10 days of launch.
+          efficiency across 12+ departments & gained 50+ users in the span of 10 days of launch.
 
 
     - title: Data Engineering - Working Student 
@@ -41,49 +41,26 @@ efficiency across 12+ departments & gained 50+ users in the span of 10 days of l
       year: Jul 2022 - Sep 2022
       description:
         - Conducted data analysis on 5000+ SMEs using Python, generating insights that increased client retention rate
-by 15%
+          by 15%
        - Created data visualization models to track KPIs and report results to leadership, saving the decision-making
-time upto 40%
+          time upto 40%
        -  Optimized and maintained APIs, enhancing documentation for stakeholders and reducing API-related queries
-by 40%
+          by 40%
 
     - title: Data Science Intern 
       institution: BMW AG, Munich, Germany
       year: Mar 2021 - Jul 2021
       description:
       - Developed interactive dashboards for data visualization with Python libraries, reducing data interpretation time
-by 40%
+        by 40%
       - Designed and implemented Java-based Jira plugin to extract unstructured data & convert to structured data via
-REST API, accelerating data entry & decision-making process by 50%.
+        REST API, accelerating data entry & decision-making process by 50%.
 
     - title: ML Researcher (Bachelor Thesis)
       institution: Fraunhofer-Institute for Silicate Research ISC
       year: Oct 2021 - Feb 2022
       description: 
-      - Collected microscopic images data of cell samples & developed program with Yolov4 algorrithm to implement image segmentation on the images to detect cancer cells.
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Projects 
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/ishacm/video-summarizer-llm-aws-serverless.git">AWS serverless video summarizer using LLM</a>
-
-      description: Built a video summary generator using Jurasic-2(LLM) & Amazon Bedrock reducing the content consumption time by 60% for tested
-users. Tech Stack- Python, Makefile
-
-- title: <a href="https://github.com/ishacm/video-summarizer-llm-aws-serverless.git">AWS serverless video summarizer using LLM</a>
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+      - Collected microscopic images data of cell samples & developed program with Yolov4 algorithm to implement image segmentation on the images to detect cancer cells.
 
 - title: Technical & Language Skills
   type: nested_list
@@ -102,4 +79,4 @@ users. Tech Stack- Python, Makefile
         - AWS/ Azure/ Kubernets
         - MLflow
         - Linux, Shell commands
-        Miro, Jira/Confluence
+          Miro, Jira/Confluence
