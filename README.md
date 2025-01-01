@@ -1,6 +1,6 @@
 <img alt="alt_text" width="240px" src="isha.jpg"/>
 
-[![Resume](https://img.shields.io/badge/Resume-red)](Isha Chaudhari_CV_2024.pdf)
+ [<img alt="alt_text" width="70px" src="Resume.png"/>](https://drive.google.com/file/d/1hghunWU87YyU7NIeZkKH9ePlsDKDHaKt/view?usp=sharing) 
 
 
 Hey there👋🏽, I'm a developer, a mechatronics grad & currently finishing up my masters degree focused on product development. I usually like spending my time reading about building useful products, connecting with tech community on twitter/discord, running & taking care of my plants.
