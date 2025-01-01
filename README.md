@@ -52,8 +52,7 @@ always seem to be building stuff and hanging around smart people’
 
 Connect:
 
-[<img alt="alt_text" width="40px" src="X logo.jpg"/>](https://x.com/ishatwts_)  [<img alt="alt_text" width="40px" src="Linkedin logo.png"/>](https://www.linkedin.com/in/ishachaudhari/)
-  [<img alt="alt_text" width="40px" src="Notion logo.png" />](https://ishachaudhari.notion.site/Isha-Chaudhari-59f5e139e6ea493fbbe6da550541316d?pvs=74)  [<img alt="alt_text" width="40px" src="email logo.jpeg" />](mailto:isha.chaudhari@gmail.com)
+[<img alt="alt_text" width="40px" src="X logo.jpg"/>](https://x.com/ishatwts_)    [<img alt="alt_text" width="40px" src="Linkedin logo.png"/>](https://www.linkedin.com/in/ishachaudhari/)    [<img alt="alt_text" width="40px" src="Notion logo.png" />](https://ishachaudhari.notion.site/Isha-Chaudhari-59f5e139e6ea493fbbe6da550541316d?pvs=74)    [<img alt="alt_text" width="40px" src="email logo.jpeg" />](mailto:isha.chaudhari@gmail.com)
 
 
 
