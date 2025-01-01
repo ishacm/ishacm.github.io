@@ -1,6 +1,5 @@
-Isha Chaudhari
 
-hey, I'm a developer, a mechatronics grad & currently finishing up my masters degree focused on product development. I usually like spending my time reading about building useful products, connecting with tech community on twitter/discord, running & taking care of my plants.
+Hey there👋🏽, I'm a developer, a mechatronics grad & currently finishing up my masters degree focused on product development. I usually like spending my time reading about building useful products, connecting with tech community on twitter/discord, running & taking care of my plants.
 I grew up playing wildily on Indian streets & then moving to Germany (an engineer's paradise) for my college. After learning to build robots for a few years, a professor & the amazing tech community introduced me to the world of ML & ever since then I've been loving analyzing data & deploying ML workflows. Through my professional jounery, I've worked with automotive data (from ECUs). biomedical data (microscopic images of cancer cells), finance data (SME information) & lately the telecomm data. In past 1 year, I loved working on building a platform for product managers which helped them during the whole PLM process & adding an AI assitant with the help on LLM.
 ________________________________________
 here are some of my works-
