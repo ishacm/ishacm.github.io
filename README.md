@@ -1,7 +1,10 @@
+<img alt="alt_text" width="240px" src="isha.jpg"/>
+
 
 Hey there👋🏽, I'm a developer, a mechatronics grad & currently finishing up my masters degree focused on product development. I usually like spending my time reading about building useful products, connecting with tech community on twitter/discord, running & taking care of my plants.
-I grew up playing wildily on Indian streets & then moving to Germany (an engineer's paradise) for my college. After learning to build robots for a few years, a professor & the amazing tech community introduced me to the world of ML & ever since then I've been loving analyzing data & deploying ML workflows. Through my professional jounery, I've worked with automotive data (from ECUs). biomedical data (microscopic images of cancer cells), finance data (SME information) & lately the telecomm data. In past 1 year, I loved working on building a platform for product managers which helped them during the whole PLM process & adding an AI assitant with the help on LLM.
+
 ________________________________________
+
 here are some of my works-
 1.	[Video Summarizer with GenAI & AWS serverless](https://github.com/ishacm/video-summarizer-llm-aws-serverless)
 2.	[Amazon Products Sentiment Analyser (with NLP)](https://github.com/ishacm/amazon-products-nlp-sentiment-analyzer)
@@ -10,6 +13,7 @@ here are some of my works-
 5.	[Multi-factor Authentication with Google Authenticator (MERN stack)](https://github.com/ishacm/multi-factor-authentication)
 
 ________________________________________
+
 here are few people & blogs that inspire me to build-
 [**Andrej Karpathy**](https://karpathy.github.io/): A brilliant AI researcher who spent time building at OpenAI & as Chief AI Officer at Tesla. He is loved in on the tech twitter a lot.
 
@@ -41,3 +45,14 @@ always seem to be building stuff and hanging around smart people’
 [The control group is out of control](https://slatestarcodex.com/2014/04/28/the-control-group-is-out-of-control/) - Scott Alexander
 
 [The Billionaire Flippening](https://balajis.ghost.io/the-billionaire-flippening/) - Balaji Srinivasan
+
+---
+
+Connect:
+
+[<img alt="alt_text" width="40px" src="X logo.jpg"/>](https://x.com/ishatwts_)  [<img alt="alt_text" width="40px" src="Linkedin logo.png"/>](https://www.linkedin.com/in/ishachaudhari/)
+  [<img alt="alt_text" width="40px" src="Notion logo.png" />](https://ishachaudhari.notion.site/Isha-Chaudhari-59f5e139e6ea493fbbe6da550541316d?pvs=74)  [<img alt="alt_text" width="40px" src="email logo.jpg" />](mailto:isha.chaudhari@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+
+
+
+
