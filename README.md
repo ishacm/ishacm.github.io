@@ -1,4 +1,4 @@
-<h3 align="center">AI developer, passionate into building products</h3>
+<h3 align="left">AI developer, passionate into building products</h3>
 
 <img alt="alt_text" width="230px" src="isha.jpg"/>
 
