@@ -1,0 +1,688 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Isha Chaudhari</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(0, 0, 0, 0.06); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="59f5e139-e6ea-493f-bbe6-da550541316d" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/solid_beige.png" style="object-position:center 40%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="20241119_095521.jpg"/></div><h1 class="page-title">Isha Chaudhari</h1><p class="page-description"></p></header><div class="page-body"><p id="159d4ea7-e665-80bb-a330-fd254cf6000d" class="block-color-purple"><em><mark class="highlight-default"><strong>Data Scientist, aspiring Product Manager, self-taught</strong></mark></em></p><div id="d1647fad-0e72-43ea-b0bf-a59c98802dd5" class="column-list"><div id="ca16764a-9b10-4040-bcea-1dfc7dd746ab" style="width:93.75%" class="column"><div><ul id="15ad4ea7-e665-808a-accc-f32d062f9054" class="block-color-default bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-orange"><mark class="highlight-default_background">I’m a recent graduate with about two years of experience in the data science field. At 19, I took a leap from the bustling streets of India to the tech hubs of Germany—an engineer’s dream come true! I began my journey studying </mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background"><strong>Mechatronics</strong></mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background">, diving into robotics, and eventually transitioned to applying my skills in the real world. My work spans building projects, designing </mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background"><strong>ETL pipelines</strong></mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background">, and deploying </mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background"><strong>ML models</strong></mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background">.</mark></mark></em></li></ul><ul id="159d4ea7-e665-80cc-835a-f021c0f450b4" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-orange"><mark class="highlight-default_background">Recently, I’ve been focusing on scaling software systems, developing agentic workflows (yes, I’m optimistic about AGI being around the corner!), developing </mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background"><strong>GTM</strong></mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background"> strategies &amp; growing my product management skills and connecting with like-minded peeps in the </mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background"><strong>B2B SaaS space</strong></mark></mark></em><em><mark class="highlight-orange"><mark class="highlight-default_background">. </mark></mark></em></li></ul><ul id="fe5b6166-4491-4f0c-aea1-05b522a76707" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-orange"><mark class="highlight-default_background">Outside of work, I’m passionate about running (5Ks are my favorite) and exploring bio-hacking🥨🏃🏽‍♀️☕✨🛰️</mark></mark></em></li></ul></div><p id="159d4ea7-e665-8075-ac44-de832f1ec455" class="">
+</p></div><div id="8e7c25e7-33c7-4243-a700-8f7b04eedba0" style="width:6.25%" class="column"><p id="1ed4bc7c-5e82-4953-8d95-6e0b957d6c2f" class="">
+</p></div></div><hr id="a3a0609c-8f11-4e1f-8697-22742af605d2"/><div id="2dbec4d2-8b76-4c04-83a2-ce8254c7be55" class="column-list"><div id="6147230a-b96c-4094-addf-98d6a93d192a" style="width:56.25%" class="column"><h3 id="c2030b01-710e-4a38-868f-8ffc8106234c" class="">Loved working at &gt;</h3><figure id="92112544-5d1f-4763-8725-c45f79ddf633" class="image"><a href="189c96ac-c678-4771-8538-856c2efe7e44.png"><img style="width:432px" src="189c96ac-c678-4771-8538-856c2efe7e44.png"/></a></figure></div><div id="a0132182-efd4-49f4-947b-54b8a2635512" style="width:43.75%" class="column"><h3 id="121bdb35-5417-4ebe-af0b-021ab4e77d4e" class="">Technologies I work with &gt;</h3><p id="46bc65ea-023f-4e51-b779-3d44d57eed2c" class=""><mark class="highlight-gray">⚙️ </mark><mark class="highlight-gray"><strong>Python, Java, C++, SQL, Reac</strong></mark></p><p id="6ad16e40-70b9-4a2c-a573-a9c404247d52" class=""><mark class="highlight-gray">⚙️ </mark><mark class="highlight-gray"><strong>AWS, Docker</strong></mark></p><p id="51735977-49e2-4b7a-a921-a6d33b30be3b" class=""><mark class="highlight-gray">⚙️ </mark><mark class="highlight-gray"><strong>Git, Jira</strong></mark></p><p id="2bd09f64-034e-4cf8-8148-9bf5dac5fb32" class=""><mark class="highlight-gray"><strong>⚙️ Linux, Shell commands</strong></mark></p><p id="159d4ea7-e665-800a-87ef-f34b06a70c8d" class="">
+</p></div></div><hr id="0246947d-3b6d-4df8-8dbc-22f2e6a57443"/><div id="159d4ea7-e665-8014-9be7-f221b211fb4c" class="column-list"><div id="159d4ea7-e665-809e-a86b-c185f07c99ba" style="width:100%" class="column"><details open=""><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0"><mark class="highlight-brown"><mark class="highlight-default_background"><strong>Explore my product portfolio here &gt;</strong></mark></mark></summary><div class="indented"><figure id="15ad4ea7-e665-80ef-98c2-f90b857ffd34" class="link-to-page"><a href="https://www.notion.so/Caelus-your-PLM-buddy-15ad4ea7e66580ef98c2f90b857ffd34?pvs=21"><img class="icon" src="Caelus_logo.png"/>Caelus - your PLM buddy</a></figure></div></details></div><div id="159d4ea7-e665-8016-b7de-dfacc7124705" style="width:100%" class="column"><details open=""><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0"><mark class="highlight-default"><mark class="highlight-default_background"><strong>Work Experience &gt;</strong></mark></mark></summary><div class="indented"><h3 id="88594e34-99dc-4866-a60a-ec3b732dedc9" class="block-color-purple">Product lifecycle manager &amp; GenAI (Work Study)</h3><p id="75c80ce1-7b9c-4d86-8586-0999ddd17503" class=""><em><mark class="highlight-gray">Rohde &amp; Schwarz GmbH CO. KG, Munich</mark></em><strong>🇩🇪</strong><em><mark class="highlight-gray">| 03/2023- 06/2024</mark></em></p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="f143e4d5-9485-40e9-911b-675740b256c9"><div style="font-size:1.5em"><span class="icon">⚡</span></div><div style="width:100%">As an aspiring product manager, I developed hand-on skills in building a product from ideation to it’s implementation phase in the span of 1 year and also built an additional AI assistant (RAG app trained on the company documents) for this product as a part of my Master Thesis</div></figure><h3 id="9d17fe61-29c8-40ac-9990-651e1b9bed7b" class="block-color-purple">Data Engineer (Work Study)</h3><p id="bf4fb14b-824b-471d-bbce-0b286c195c4f" class=""><em><mark class="highlight-gray">Creditshelf AG (now acquired by Teylor), Frankfurt</mark></em><strong>🇩🇪</strong><em><mark class="highlight-gray">| 07/2022 - 09/2022</mark></em></p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="31d5a1c6-0502-4a55-9a1e-d4865fae7616"><div style="font-size:1.5em"><span class="icon">⚡</span></div><div style="width:100%">As a part of the data engineering team in the fast-paced startup environment, this gave me an exponential learning curve. The best experience so far in building &amp; deploying quality code. I didn’t break the prod environment ;)</div></figure><h3 id="159d4ea7-e665-80a4-99e0-d1cfa858be4e" class="block-color-purple">ML Researcher (Bachelor Thesis)</h3><p id="159d4ea7-e665-806e-b576-fabce5802382" class=""><em><mark class="highlight-gray">Fraunhofer Institute of Silicate Research, </mark></em><em>Würzburg</em><strong>🇩🇪</strong><em><mark class="highlight-gray">| 03/2021 - 07/2021</mark></em></p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="159d4ea7-e665-80c3-8cfa-e18c5b165198"><div style="font-size:1.5em"><span class="icon">⚡</span></div><div style="width:100%">Devised a process to recognize cancer cells using the Yolov4 algorithm and microscopic images as training data.</div></figure><h3 id="6fc687fa-3f56-467e-9eb4-ea58875aa69c" class="block-color-purple">Data Science Intern</h3><p id="0776c72e-ca38-4479-a7b6-5bea4301fc93" class=""><em><mark class="highlight-gray">BMW AG, Munich</mark></em><strong>🇩🇪</strong><em><mark class="highlight-gray">| 03/2021 - 07/2021</mark></em></p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="260c231e-8c0a-4195-b73c-79e2724ed1c7"><div style="font-size:1.5em"><span class="icon">⚡</span></div><div style="width:100%">First experience in the professional world of Big tech. I was part of the team that built a cloud-native app that helped the software architects to take efficient decisions.</div></figure></div></details><details open=""><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0"><mark class="highlight-default"><mark class="highlight-default_background"><strong>Education &gt;</strong></mark></mark></summary><div class="indented"><h3 id="8c6462a2-a8b1-4368-813a-a433051a0a96" class="block-color-purple">MSc. Design Leadership</h3><p id="e7b9a50f-2daa-4c4e-8d2c-e5c427466602" class=""><em>Technical University of Ingolstadt | 2022-2024</em></p><p id="7b692a4b-0799-429f-aa6f-7bacde944b8d" class=""><mark class="highlight-gray">Key Courses: Product development, Strategic foresight &amp; trend analysis</mark></p><h3 id="dae6f54b-bd7d-41b4-9e99-c2a78dcafd57" class="block-color-purple">B.E. Mechatronics</h3><p id="080f844a-d29d-4fda-acc1-652548ee6dbd" class=""><em> Technical University of Würzburg-Schweinfurt | 2019-2022</em></p><p id="a298a707-1baf-4b43-9eff-90e0b9953594" class=""><mark class="highlight-gray">Key Courses: Machine Learning, Robotics, Signal processing</mark></p></div></details><details open=""><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0"><mark class="highlight-default"><mark class="highlight-default_background"><strong>My favorite reads &gt;</strong></mark></mark></summary><div class="indented"><p id="930bca09-571d-445f-8949-9c3650040d17" class="block-color-teal_background"><strong><a href="https://karpathy.github.io/">Andrej Karpathy</a></strong>: A brilliant AI researcher who spent time building at OpenAI &amp; as Chief AI Officer at Tesla. He is loved in on the tech twitter a lot.</p><ul id="c018c3b2-f099-4bb5-b7dc-746cda97f492" class="block-color-teal_background bulleted-list"><li style="list-style-type:disc"><a href="https://karpathy.github.io/2020/06/11/biohacking-lite/">Biohacking Lite</a>: It’s always fun to read content from people from fields like computer science when they later deep dive into biology, often for their own personal health. This post has some high-SNR content on the basics of metabolism and energy in humans as well as some quantified-self demonstrations and simple dietary advice.<p id="26e7b058-c33c-4039-872f-1e09411c60a9" class="block-color-yellow_background"><strong><a href="https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine">Matt Levine</a></strong>: A Bloomberg columnist who writes insightful &amp; hillarious posts. </p><ul id="b3d7c3a9-4081-4ec8-9093-c98f3a9272b1" class="block-color-yellow_background bulleted-list"><li style="list-style-type:circle"><a href="https://www.bloomberg.com/opinion/articles/2021-10-07/matt-levine-s-money-stuff-looking-for-tether-s-money">Looking for Tether’s Money</a>: On the potential insolvency of <a href="https://en.wikipedia.org/wiki/Tether_(cryptocurrency)">Tether</a>, along with a section on interesting loans and NFT occurrences</li></ul><ul id="4a8acab5-673e-4c60-a5a2-e72c35c45f04" class="block-color-yellow_background bulleted-list"><li style="list-style-type:circle"><a href="https://www.bloomberg.com/opinion/articles/2021-11-11/elon-musk-sold-some-tesla-stock-kvv74kce">Elon Musk Sold Some Stock</a>: Musings on the never-ending fun of Elon Musk’s doings, his tweets, and<br/>potential legal implications thereof, as well as notes on GE banking<br/>fees and Trump’s <br/><a href="https://en.wikipedia.org/wiki/Special-purpose_acquisition_company">SPAC</a> <a href="https://marketrealist.com/p/what-is-pipe-in-a-spac/">PIPE</a></li></ul><p id="60d8da6a-06b1-482b-b657-7081a566f75d" class="block-color-teal_background"><strong><a href="http://paulgraham.com/articles.html">Paul Graham</a></strong>: The founder of <a href="https://en.wikipedia.org/wiki/Y_Combinator">Y Combinator</a>, writes most amazing essays with a focus on startips, ideas, daily-life, hacking productivity. Most loved celebrity of nerdy founders  </p></li></ul><ul id="b96ec30f-8c98-4ee6-934b-fdd00da8e977" class="block-color-teal_background bulleted-list"><li style="list-style-type:disc"><a href="http://paulgraham.com/ds.html">Do Things That Don’t Scale</a>: An amazing tip on gaining initial traction and leverage by doing<br/>high-impact activities that won’t scale, but that will work effectively<br/>for the time being<br/></li></ul><ul id="00b09f25-d4f1-4649-b221-d2bc5a431a4c" class="block-color-teal_background bulleted-list"><li style="list-style-type:disc"><a href="http://paulgraham.com/wealth.html">How to Make Wealth</a>: An essay on effectively building wealth over time</li></ul><p id="587f4cc1-e84b-44fe-bea6-5cc0d9a63d8f" class="block-color-yellow_background"><strong><a href="https://vitalik.ca/">Vitalik Buterin</a></strong> : The crypto-god as they say. </p><p id="4af51d77-82e3-4520-bc96-ab18a31554fe" class="block-color-teal_background"><strong><a href="https://blog.samaltman.com/">Sam Altman</a></strong>: The CEO of OpenAI and former president of Y Combinator</p><ul id="90eda54c-7165-49f0-89db-eb7887e9e91a" class="block-color-teal_background bulleted-list"><li style="list-style-type:disc"><a href="https://blog.samaltman.com/how-to-be-successful">How to be Successful</a>: Thirteen thoughts on how to achieve long-term successful outcomes: learn a lot, compound yourself, work hard, and be ambitious</li></ul><ul id="0f9d0333-8874-456b-988c-0c5b6ffe44c5" class="block-color-teal_background bulleted-list"><li style="list-style-type:disc"><a href="https://blog.samaltman.com/advice-for-ambitious-19-year-olds">Advice for Ambitious 19 Year Olds</a>: Advice for young and ambitious individuals, such as ‘The best people<br/>always seem to be building stuff and hanging around smart people’<br/></li></ul><ul id="7beccc20-d097-4e3b-9df5-6185948537fd" class="block-color-teal_background bulleted-list"><li style="list-style-type:disc"><a href="https://blog.samaltman.com/super-successful-companies">Super successful companies</a>: Notes some salient commonalities between many very successful companies</li></ul><p id="d60d9171-4091-4a00-8f9c-e2ca79ada7bf" class=""><a href="https://slatestarcodex.com/2014/04/28/the-control-group-is-out-of-control/">The control group is out of control</a> - Scott Alexander</p><p id="14a4701c-d996-40c5-bd45-7bbde772bf38" class=""><a href="https://balajis.ghost.io/the-billionaire-flippening/">The Billionaire Flippening</a> - Balaji Srinivasan</p></div></details></div></div><div id="159d4ea7-e665-8006-89b9-dd8328008ccb" class="column-list"><div id="159d4ea7-e665-80c8-bd7c-ea766993d84a" style="width:25%" class="column"><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="82b63d6e-b0a8-4882-a26f-e0183a9381a1"><div style="font-size:1.5em"><img class="icon" src="download.png"/></div><div style="width:100%"><a href="https://ishacm.github.io/">GitHub</a></div></figure></div><div id="159d4ea7-e665-8073-8ecc-cefc9312d1e2" style="width:25.000000000000007%" class="column"><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="3918ca11-cb66-429a-8ef2-6e25f31f8ff7"><div style="font-size:1.5em"><span class="icon">💼</span></div><div style="width:100%"><a href="https://www.linkedin.com/in/ishachaudhari/">Linkedin</a></div></figure></div><div id="159d4ea7-e665-8091-824d-fd07b2892c3c" style="width:25%" class="column"><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="45faeeca-58e3-4272-b6fc-0f259232661c"><div style="font-size:1.5em"><span class="icon">✉️</span></div><div style="width:100%"><a href="mailto:isha.chaudhari@gmail.com">Email</a></div></figure></div><div id="159d4ea7-e665-80e9-8128-e45af460401d" style="width:25%" class="column"><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="159d4ea7-e665-8084-8648-e5f0dfe5e14d"><div style="font-size:1.5em"><img class="icon" src="download%201.png"/></div><div style="width:100%"><a href="https://x.com/ishatwts_">X / twitter</a></div></figure></div></div><p id="159d4ea7-e665-8011-8b2e-c586936720e3" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
